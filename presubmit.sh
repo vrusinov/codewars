@@ -6,3 +6,5 @@ set -e
 for d in $(find . -name \*.go | sed -r 's|/[^/]+$||' |sort -u) ; do
     gometalinter $d
 done
+
+pytype .
