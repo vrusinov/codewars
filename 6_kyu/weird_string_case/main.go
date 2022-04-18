@@ -6,27 +6,27 @@ import (
 )
 
 func wordToWeirdCase(word string) string {
-  var ret_arr []rune
+  var retArr []rune
 
   for pos, char := range word {
     if (pos % 2 == 0) {
-      ret_arr = append(ret_arr, unicode.ToUpper(char));
+      retArr = append(retArr, unicode.ToUpper(char));
     } else {
-      ret_arr = append(ret_arr, unicode.ToLower(char));
+      retArr = append(retArr, unicode.ToLower(char));
     }
   }
 
-  return string(ret_arr);
+  return string(retArr);
 }
 
-func toWeirdCase(str string) string {
-  var weird_words []string
+func toWeirdCase(str string) string {  // nolint: deadcode
+  var weirdWords []string
 
   words := strings.Fields(str);
 
   for _, word := range words {
-    weird_words = append(weird_words, wordToWeirdCase(word))
+    weirdWords = append(weirdWords, wordToWeirdCase(word))
   }
 
-  return strings.Join(weird_words, " ");
+  return strings.Join(weirdWords, " ");
 }
