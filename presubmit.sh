@@ -6,6 +6,9 @@ set -e
 for d in $(find . -name \*.go | sed -r 's|/[^/]+$||' |sort -u) ; do
     golint $d
     gometalinter $d
+    pushd $d
+    golangci-lint run
+    popd
 done
 
 pytype .
