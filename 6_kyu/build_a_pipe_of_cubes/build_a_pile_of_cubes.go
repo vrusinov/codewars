@@ -16,13 +16,14 @@
 
 package kata
 
+// FindNb implements solution for "build a pile of cubes problem"
 func FindNb(m int) int {
   n := 0
   volume := 0
 
   for volume < m {
 	  // math.Pow() only takes floats
-	  n += 1
+	  n++
 	  volume += n*n*n
   }
   if (volume == m) {
