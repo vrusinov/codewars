@@ -1,4 +1,7 @@
-def create_phone_number(n):
+from re import S
+from typing import Sequence
+
+def create_phone_number(n: Sequence[int]) -> str:
     str_n = [str(x) for x in n]
     code = ''.join(str_n[:3])
     part_1 = ''.join(str_n[3:6])
