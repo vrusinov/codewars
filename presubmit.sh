@@ -14,3 +14,6 @@ pytype .
 
 # Does not work very well:
 # which docker && docker run --rm -e "WORKSPACE=${PWD}" -v "$PWD:/app" shiftleft/sast-scan scan
+
+# Install presubmit:
+ln -sf ../../presubmit.sh .git/hooks/pre-commit
