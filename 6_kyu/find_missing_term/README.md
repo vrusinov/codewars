@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Find the missing term in an Arithmetic Progression
 
 https://www.codewars.com/kata/52de553ebb55d1fca3000371/train/rust

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+//
+// SPDX-License-Identifier: Apache-2.0
+
 module github.com/vrusinov/codewars/bouncing_balls
 
 go 1.19

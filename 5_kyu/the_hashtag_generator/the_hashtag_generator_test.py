@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+#
+# SPDX-License-Identifier: Apache-2.0
+
 import codewars_test as test
 
 from the_hashtag_generator import generate_hashtag

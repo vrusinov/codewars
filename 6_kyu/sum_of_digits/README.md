@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Sum of Digits / Digital Root
 
 [link](https://www.codewars.com/kata/541c8630095125aba6000c00)

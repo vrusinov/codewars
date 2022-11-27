@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+//
+// SPDX-License-Identifier: Apache-2.0
+
 fn sort_numbers(arr: &Vec<i32>) -> Vec<i32> {
     // Must copy the vector.
     // to_vec Copies self into a new Vec

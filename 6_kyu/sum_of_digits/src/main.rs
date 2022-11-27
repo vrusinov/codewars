@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+//
+// SPDX-License-Identifier: Apache-2.0
+
 fn sum_of_digits(n: i64) -> i64 {
     let mut result: i64 = 0;
     let mut reminder: i64 = n;

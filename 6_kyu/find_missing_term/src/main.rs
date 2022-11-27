@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+//
+// SPDX-License-Identifier: Apache-2.0
+
 fn find_missing(seq: &[i32]) -> i32 {
     let len = seq.len();
     let slope: i32 = (seq[len-1] - seq[0]) / (len as i32);

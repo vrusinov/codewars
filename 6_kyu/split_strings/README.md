@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Split Strings
 
 https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/train/python

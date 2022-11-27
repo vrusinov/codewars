@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+//
+// SPDX-License-Identifier: Apache-2.0
+
 fn good_vs_evil(good: &str, evil: &str) -> String {
     let good_vec: Vec<i32> = good
         .split_whitespace()

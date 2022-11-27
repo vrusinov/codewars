@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+//
+// SPDX-License-Identifier: Apache-2.0
+
 module github.com/vrusinov/codewars/build_a_pipe_of_cubes
 
 go 1.18

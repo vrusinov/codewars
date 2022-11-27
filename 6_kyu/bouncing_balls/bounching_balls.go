@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+//
+// SPDX-License-Identifier: Apache-2.0
+
 // package kata implements Bouncing Balls
 // https://www.codewars.com/kata/5544c7a5cb454edb3c000047/train/go
 package kata

@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Vladimir Rusinov
+#
+# SPDX-License-Identifier: Apache-2.0
+
 """
 https://www.codewars.com/kata/52449b062fb80683ec000024/train/python
 

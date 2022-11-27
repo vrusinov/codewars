@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: vrusinov's codewars solutions
+Upstream-Contact: Vladimir Rusinov <vladimir.rusinov@gmail.com>
+Source: https://github.com/vrusinov/codewars
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
