@@ -21,7 +21,9 @@ def valid_braces(string):
             braces.append(brace)
         else:
             # Check if it corresponds to the one on top of the braces stack
-            if braces and BRACE_PAIRS[braces.pop()] != brace:
+            if not braces:
+                return False
+            if BRACE_PAIRS[braces.pop()] != brace:
                 return False
     if braces:
         return False
