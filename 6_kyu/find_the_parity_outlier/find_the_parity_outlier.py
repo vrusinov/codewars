@@ -35,7 +35,7 @@ def find_outlier(integers: Iterable[int]) -> Optional[int]:
     return None
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     assert find_outlier([2, 4, 6, 8, 10, 3]) == 3
     assert find_outlier([2, 4, 0, 100, 4, 11, 2602, 36]) == 11
     assert find_outlier([160, 3, 1719, 19, 11, 13, -21]) == 160
