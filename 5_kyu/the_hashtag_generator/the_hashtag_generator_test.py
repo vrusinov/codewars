@@ -48,7 +48,7 @@ test.assert_equals(
 )
 test.assert_equals(
     generate_hashtag(
-        "Looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong Cat"
+        "Looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong Cat"  # noqa
     ),
     False,
     "Should return False if the final word is longer than 140 chars.",
