@@ -23,4 +23,3 @@ var _ = Describe("Test Example", func() {
       testequal(5, -1, 1.5, -1)
     })
 })
-
