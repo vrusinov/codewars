@@ -17,6 +17,7 @@ Here's the deal:
 If the input or the result is an empty string it must return false.
 """
 
+
 def generate_hashtag(s):
     words = s.strip().split()
     if not words:
@@ -29,7 +30,7 @@ def generate_hashtag(s):
         if total_len > 139:
             return False
         ret.append(w)
-    ret = '#' + ''.join(ret)
+    ret = "#" + "".join(ret)
     if len(ret) > 140:
         return False
     return ret
