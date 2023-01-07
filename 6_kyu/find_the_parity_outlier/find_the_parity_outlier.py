@@ -8,7 +8,7 @@ from typing import Iterable, Optional
 def find_outlier(integers: Iterable[int]) -> Optional[int]:
     """Find The Parity Outlier.
 
-    Idea: go though array, counting odd and even integers, counting numnber of
+    Idea: go though array, counting odd and even integers, counting number of
     odd and even integers seen, and saving the last seen.
 
     We can terminate early when we have >= 2 odd and one even (which will be
