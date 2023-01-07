@@ -7,7 +7,7 @@ from valid_braces import valid_braces
 
 def assert_valid(string):
     test.assert_equals(
-        valid_braces(string), True, 'Expected "{0}" to be valid'.format(string)
+        valid_braces(string), True, 'Expected "{}" to be valid'.format(string)
     )
 
 
@@ -15,7 +15,7 @@ def assert_invalid(string):
     test.assert_equals(
         valid_braces(string),
         False,
-        'Expected "{0}" to be invalid'.format(string)
+        'Expected "{}" to be invalid'.format(string)
     )
 
 
