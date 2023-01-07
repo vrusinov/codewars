@@ -13,7 +13,7 @@ test.assert_equals(
 test.assert_equals(
     generate_hashtag("Do We have A Hashtag")[0],
     "#",
-    "Expeted a Hashtag (#) at the beginning.",
+    "Expected a Hashtag (#) at the beginning.",
 )
 test.assert_equals(
     generate_hashtag("Codewars"), "#Codewars", "Should handle a single word."
