@@ -3,7 +3,6 @@
 # SPDX-License-Identifier: Apache-2.0
 
 import codewars_test as test
-
 from the_hashtag_generator import generate_hashtag
 
 test.describe("Basic tests")
