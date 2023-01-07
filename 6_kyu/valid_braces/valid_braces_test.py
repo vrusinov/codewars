@@ -13,7 +13,9 @@ def assert_valid(string):
 
 def assert_invalid(string):
     test.assert_equals(
-        valid_braces(string), False, 'Expected "{0}" to be invalid'.format(string)
+        valid_braces(string),
+        False,
+        'Expected "{0}" to be invalid'.format(string)
     )
 
 

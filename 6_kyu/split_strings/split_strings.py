@@ -14,7 +14,7 @@ final pair with an underscore ('_').
 def solution(s):
     result = []
     for i in range(0, len(s), 2):
-        hunk = s[i : i + 2]
+        hunk = s[i:i + 2]
         if len(hunk) == 1:
             hunk += "_"
         result.append(hunk)
