@@ -2,16 +2,23 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+# C++
 *.so
+*.a
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+Testing/
+*/*/*_test
+cmake_install.cmake
 
 # Distribution / packaging
-.Python
 build/
 develop-eggs/
 dist/
