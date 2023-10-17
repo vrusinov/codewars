@@ -36,6 +36,12 @@ repos:
         entry: bash presubmit.sh
         language: system
         always_run: true
+    -   id: ctest
+        name: ctest
+        entry: |
+          bash -c 'for dir in $(find . -type f -name "*.cc" -exec dirname "{}" \; |sort -u); do pushd $dir && make && ctest . && popd ; done || exit 1'
+        language: system
+        files: .*.cc$
 -   repo: https://github.com/pycqa/isort
     rev: 5.12.0
     hooks:

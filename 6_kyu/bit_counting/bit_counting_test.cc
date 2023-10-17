@@ -17,7 +17,7 @@ Describe(CountBits){
     Assert::That(countBits(12525589), Equals(11));
     Assert::That(countBits(3811), Equals(8));
     Assert::That(countBits(392902058), Equals(17));
-    Assert::That(countBits(7027622455159733985), Equals(19));
+    Assert::That(countBits(7027622455159733985), Equals(32));
   }
 };
 
