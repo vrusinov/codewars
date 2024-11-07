@@ -23,8 +23,7 @@ test.assert_equals(
     "Should handle trailing whitespace.",
 )
 test.assert_equals(
-    generate_hashtag("Codewars Is Nice"), "#CodewarsIsNice",
-    "Should remove spaces."
+    generate_hashtag("Codewars Is Nice"), "#CodewarsIsNice", "Should remove spaces."
 )
 test.assert_equals(
     generate_hashtag("codewars is nice"),
