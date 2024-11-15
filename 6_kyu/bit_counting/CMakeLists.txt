@@ -18,5 +18,4 @@ add_library(bit_counting bit_counting.cc)
 add_executable(bit_counting_test bit_counting_test.cc)
 target_link_libraries(bit_counting_test PUBLIC bit_counting)
 
-# TODO: add ctest to pre-commit.
 add_test(BitCountingTest ./bit_counting_test)
