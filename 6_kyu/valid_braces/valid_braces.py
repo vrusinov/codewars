@@ -1,7 +1,6 @@
-# SPDX-FileCopyrightText: 2022 Vladimir Rusinov <vladimir.rusinov@gmail.com>
-#
+# SPDX-FileCopyrightText: 2022,2024 Vladimir Rusinov <vladimir.rusinov@gmail.com>
 # SPDX-License-Identifier: Apache-2.0
-"""Valid Braces
+"""Valid Braces.
 
 https://www.codewars.com/kata/5277c8a221e209d3f6000b56/train/python
 """
@@ -13,7 +12,7 @@ BRACE_PAIRS = {
 }
 
 
-def valid_braces(string):
+def valid_braces(string: str) -> bool:
     braces = []
     for brace in string:
         # If it's an opening brace add to braces stack
