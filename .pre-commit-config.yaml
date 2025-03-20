@@ -10,7 +10,7 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
   - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: 'v0.9.9'
+    rev: 'v0.11.1'
     hooks:
       - id: ruff
       - id: ruff-format
@@ -49,11 +49,11 @@ repos:
     hooks:
       - id: typos
   - repo: https://github.com/golangci/golangci-lint
-    rev: "v1.64.6"
+    rev: "v1.64.8"
     hooks:
       - id: golangci-lint
   - repo: https://github.com/pre-commit/mirrors-clang-format
-    rev: 'v19.1.7'
+    rev: 'v20.1.0'
     hooks:
       - id: clang-format
   - repo: https://github.com/fsfe/reuse-tool
@@ -65,7 +65,7 @@ repos:
     hooks:
       - id: cpplint
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.35.1
+    rev: v1.36.2
     hooks:
       - id: yamllint
   - repo: https://github.com/igorshubovych/markdownlint-cli.git
@@ -77,7 +77,7 @@ repos:
     hooks:
       - id: markdownlint
   - repo: https://github.com/pylint-dev/pylint
-    rev: v3.3.4
+    rev: v3.3.6
     hooks:
       - id: pylint
   - repo: https://github.com/amperser/proselint
