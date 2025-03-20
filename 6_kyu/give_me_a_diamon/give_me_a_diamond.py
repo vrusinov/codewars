@@ -1,5 +1,5 @@
 """
-SPDX-FileCopyrightText: 2024 Vladimir Rusinov
+SPDX-FileCopyrightText: 2024-2025 Vladimir Rusinov
 SPDX-License-Identifier: Apache-2.0
 
 Give me a Diamond
@@ -7,8 +7,11 @@ Give me a Diamond
 https://www.codewars.com/kata/5503013e34137eeeaa001648/train/python
 """
 
+from typing import Optional
 
-def diamond(n):
+
+def diamond(n: int) -> Optional[str]:
+    """Prints a diamond of size n."""
     if n <= 0:
         return None
     if n % 2 == 0:
