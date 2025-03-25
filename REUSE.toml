@@ -7,6 +7,12 @@ SPDX-FileCopyrightText = "2025 Vladimir Rusinov"
 SPDX-License-Identifier = "Apache-2.0"
 
 [[annotations]]
+path = ["*/*/go.mod"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 Vladimir Rusinov"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
 path = ["*/*/Cargo.lock"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2025 Vladimir Rusinov"
