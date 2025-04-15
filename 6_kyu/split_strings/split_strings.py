@@ -1,7 +1,4 @@
-#!/usr/bin/python3
-
 # SPDX-FileCopyrightText: 2022 Vladimir Rusinov
-#
 # SPDX-License-Identifier: Apache-2.0
 
 """
@@ -11,10 +8,10 @@ final pair with an underscore ('_').
 """
 
 
-def solution(s):
+def solution(s: str) -> list[str]:
     result = []
     for i in range(0, len(s), 2):
-        hunk = s[i:i + 2]
+        hunk = s[i : i + 2]
         if len(hunk) == 1:
             hunk += "_"
         result.append(hunk)
