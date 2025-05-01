@@ -3,4 +3,4 @@
 
 [flake8]
 max-line-length = 120
-extend-ignore=WPS111
+extend-ignore=WPS111,WPS432,WPS237,WPS221
