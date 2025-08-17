@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2025 Vladimir Rusinov
+# SPDX-License-Identifier: Apache-2.0
+
+
+[package]
+name = "sort_binary_tree_by_levels"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
