@@ -80,7 +80,3 @@ repos:
     rev: v4.0.4
     hooks:
       - id: pylint
-  - repo: https://github.com/amperser/proselint
-    rev: "0.14.0"
-    hooks:
-      - id: proselint
