@@ -25,6 +25,7 @@
               zlib
               go_1_24
               nodejs_24  # For pre-commit hooks
+              nodePackages."markdownlint-cli"
               # Provide a system Ruby 3.3 so rbenv does not need to compile
               # Ruby 3.3 during pre-commit installs.
               pkgs.ruby_3_3
@@ -55,6 +56,11 @@
               pre-commit
             ];
             shellHook = ''
+              # Allow pre-commit's npm-based hook environments to install even
+              # when package engine ranges are stricter than the pinned Node
+              # version in flake.lock.
+              export NPM_CONFIG_ENGINE_STRICT=false
+              export npm_config_engine_strict=false
               # Ensure OpenSSL and CA certs from Nix are used by tools that
               # consult the environment (e.g. curl, git).
               export SSL_CERT_FILE=${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt
